@@ -1,0 +1,247 @@
+/* 
+.nav{
+    padding:1px;
+    padding-right:40px;
+    text-align: right;
+    margin-right: 0%;
+    margin-left: 1%;
+}
+ul li{
+    display :inline;
+    padding-left: 50px;
+    font-size: 100%;
+    
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    overflow: hidden;
+}
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+} 
+::before,::after{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-c0ntent-between{
+    justify-content: space-between;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.header .logo a{ 
+    height: 40px;
+    width: 40px;
+    line-height: 36%;
+    display: inline-block;
+    text-align: center;
+    border: 2px;
+    color: violet;
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-size: 150%;
+    
+
+}
+
+ .humburger-btn{ 
+    height: 40px;
+    width: 40px;
+    background-color: violet;
+    box-shadow: 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+ .humburger-btn span{ 
+    display: block;
+    height: 2px;
+    width: 16px;
+    background-color: red;
+}
+:root{
+    background-color:gray;
+}
+.nav-menu ul li a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    padding: 5px 30px;
+    text-transform: capitalize;
+    border-radius: 30px;
+transition: all 0.3s ease;
+}
+
+
+.copyrite{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    font-size: 15px;
+color: white;
+transform: translateY(-50% ) rotate(-90deg);
+left: -50px;
+}
+
+.homesection .full-screen{
+    background-color:ivory;
+    padding: 40px 0;
+    min-height: 80vh;
+}
+.home{
+   
+    transform: translate(200% );
+    text-align: center;
+    
+    
+    
+    
+} */
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+} 
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 0 50px;
+    background-color: gray;
+    font-family: sans-serif; 
+    padding:1px;
+    padding-right:40px;
+    text-align: right;
+    margin-right: 0%;
+    min-height: 10%;
+   
+
+}
+.navbar .menu li a :hover{
+    color: chocolate;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: all 0.3s ease;
+
+}
+
+ul li{
+    display :inline;
+    padding-left: 50px;
+    font-size: 100%;
+    
+}
+
+.navbar .menu li a{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.navbar .logo{
+
+border: 2px;
+color: violet;
+text-transform: uppercase;
+font-size: 150%;
+margin-right: 600%;
+
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .max_width{
+    transform: translate(200% );
+    text-align: center;
+    
+}
+.max_width{
+    width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+.home-content{
+  
+    background-image: url(stand/lap.jpg);
+    width: 180vh;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center; 
+    text-decoration: black;
+  
+  
+}
+
+
+.home .max_width{
+margin:  auto 0 auto 40px;
+}
+
+.copyrite{
+    position: absolute;
+    left: 0;
+    top: 350%;
+    font-size: 15px;
+color: black;
+transform: translateY(-50% ) rotate(-90deg);
+left: -50px;
+}
+.text-1{
+font-size: 27px;
+margin-bottom: 10%;
+
+}
+ .text-2{
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: -3px;
+    margin-bottom: 4%;
+    font-family: sans-serif;
+    text-align: center; 
+    
+}
+.text-3{
+        font-size: 48px;
+        margin: 5px ;
+        font-weight: 300;
+        margin-bottom: 40%;
+        font-family: sans-serif; 
+        
+        
+        
+
+}
+
